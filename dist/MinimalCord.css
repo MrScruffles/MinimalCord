@@ -1642,11 +1642,14 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 
 /* New Fixes Go Here */
+
+/* This Fixes the Avatar Decoration OffPosition */
 .avatarDecoration__14b3c {
   left: calc((9px) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
   margin-top: calc(2px - var(--custom-message-spacing-vertical-container-cozy) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
 }
 
+/* This Fixes the VC Timestamp Colours */
 .container_adcaac {
   background: var(--background-alt);
 }
