@@ -1640,3 +1640,9 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 #app-mount .message_ddcc45 .cozy_f9f2ca {
   margin: 0 !important;
 }
+
+/* New Fixes Go Here */
+.avatarDecoration__14b3c {
+  left: calc((9px) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
+  margin-top: calc(2px - var(--custom-message-spacing-vertical-container-cozy) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2) !important;
+}
