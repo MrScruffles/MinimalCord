@@ -1684,3 +1684,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   height: unset !important;
   opacity: 1 !important;
 }
+
+/* [Fixes] the Gifs Page Colours */
+.wrapper_e06857 {
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
+}
