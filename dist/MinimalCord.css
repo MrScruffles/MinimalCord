@@ -344,7 +344,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount .placeholder_a552a6,
 #app-mount .slateTextArea_e52116 {
-  padding: 15px 15px 15px 0;
+  /* [Fixes] Avatar Message Button */
+  padding: 15px 15px 15px 15px;
 }
 #app-mount .attachButton_f298d4 {
   padding: 15px 16px;
