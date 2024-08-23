@@ -1689,3 +1689,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .wrapper_e06857 {
   background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
 }
+
+.container_b56bbc { 
+  background-color: unset !important;
+}
