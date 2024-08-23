@@ -1719,7 +1719,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .container_c1668f {
   background-color: hsl(218 15% calc(11% + 2%));
   border-radius: 10px;
-  max-width: 93%; /* Adjust the width so it doesn't touch the border */}
+}
 
 /* [Fixes] forum channel stuff */
 .container_d331f1 { 
@@ -1731,4 +1731,9 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 /* [Fixes] Fourm Searchbar fix */
 .mainCard_a6d69a {
   background: unset !important;
+}
+
+.header_a6d69a {
+  background-color: hsl(218 15% calc(11% + 2%));
+  border-radius: 10px;
 }
