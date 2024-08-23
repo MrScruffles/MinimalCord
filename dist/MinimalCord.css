@@ -556,7 +556,9 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 #app-mount pre code,
 #app-mount code.inline {
-  background: var(--background-dark);
+  /* [Fixes] Code Block */
+  /* background: var(--background-dark); */
+
   border-radius: var(--border-radius);
   border: none;
 }
