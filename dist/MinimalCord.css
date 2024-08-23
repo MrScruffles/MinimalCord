@@ -1736,3 +1736,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background-color: hsl(218 15% calc(11% + 2%));
   border-radius: 10px;
 }
+
+.scrollerBase_eed6a8 {
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
+}
