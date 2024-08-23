@@ -1744,3 +1744,13 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .animatedContainer_fd6364 {
   z-index: 2;
 }
+
+/* [Fixes] the Search bar colour on home */
+.input_c18ec9 {
+  background-color: var(--background-dark);
+}
+
+/* [Fixes] the Search bar colour on home */
+.inner_c18ec9 {
+  background-color: var(--background-dark);
+}
