@@ -1685,11 +1685,12 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   opacity: 1 !important;
 }
 
-/* [Fixes] the Gifs Page Colours */
+/* [Fixes] the Favorites Page Colours */
 .wrapper_e06857 {
   background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
 }
 
+/* [Fixes] the Gifs Page Colours */
 .container_b56bbc { 
   background-color: unset !important;
 }
