@@ -1729,11 +1729,6 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   padding: 12px;
 }
 
-/* [Fixes] Fourm Searchbar fix */
-.mainCard_a6d69a {
-  background: unset !important;
-}
-
 /* [Fixes] Forum Searchbar fix (colours again) */
 .header_a6d69a {
   background-color: hsl(218 15% calc(11% + 2%));
