@@ -1719,7 +1719,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .container_c1668f {
   background-color: hsl(218 15% calc(11% + 2%));
   border-radius: 10px;
-}
+  max-width: 93%; /* Adjust the width so it doesn't touch the border */}
 
 /* [Fixes] forum channel stuff */
 .mainCard_a6d69a {
@@ -1729,4 +1729,6 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 /* [Fixes] forum channel stuff */
 .container_d331f1 { 
   background-color: hsl(218 15% calc(11% + 2%));
+  padding: 12px;
+  max-width: 93%; /* Adjust the width so it doesn't touch the border */
 }
