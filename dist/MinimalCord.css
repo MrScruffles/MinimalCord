@@ -1690,11 +1690,17 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) var(--dark-bg-l));
 }
 
+/* [Fixes] New SlashCommand button thing colour */
+.button_df39bd { 
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%))
+}
+
 /* [Fixes] the Gifs Page Colours */
 .container_b56bbc { 
   background-color: unset !important;
 }
 
+/* [Fixes] the Gifs Page Colours (again) */
 .header_b56bbc {
   background-color: unset !important;
 }
