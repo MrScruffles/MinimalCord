@@ -21,7 +21,7 @@
   --text-link: rgb(var(--accent));
 
   /* [Fixes] Decoration Fix */
-  --custom-message-margin-horizontal: 13px;
+  --custom-message-margin-horizontal: 8.5px;
 }
 
 .theme-light,
