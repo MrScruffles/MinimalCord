@@ -1677,3 +1677,10 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .avatar_f9f2ca {
   margin-top: 1.5px !important;
 }
+
+/* [Fixes] Opening Image not transparent */
+.carouselModal_d2b9a1 {
+  width: unset !important;
+  height: unset !important;
+  opacity: 1 !important;
+}
