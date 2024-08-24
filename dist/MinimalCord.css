@@ -1778,6 +1778,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 
 .emojiPicker_c6ee36 {
   box-shadow: unset !important;
+  border-bottom-right-radius: var(--custom-emoji-picker-border-radius);
+  border-bottom-left-radius: var(--custom-emoji-picker-border-radius);
 }
 
 /* [Fixes] the Emoji Section Colour (all changes above are apart of it) who ever did the emojipicker has 2 sep classes genius i say*/
