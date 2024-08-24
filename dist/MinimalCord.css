@@ -980,7 +980,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   padding-left: 8px;
 }
 #app-mount .list_a3bc57 .wrapper_e06857 {
-  background: var(--background-light-alt);
+  /* background: var(--background-light-alt); */
   padding-left: 12px;
 }
 #app-mount .list_a3bc57 .inspector_c3120f {
@@ -1754,3 +1754,4 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .inner_c18ec9 {
   background-color: var(--background-dark);
 }
+
