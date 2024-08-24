@@ -1757,3 +1757,27 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   background-color: var(--background-dark);
 }
 
+.categorySection_a3bc57 {
+  /* [Fixes] the Emoji Section Colour */
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%));
+}
+
+/* [Fixes] the Emoji Section Colour (all changes below are apart of it) who ever did the emojipicker has 2 sep classes genius i say*/
+.header_c6ee36 {
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%))
+}
+
+.inspector_c3120f {
+  background-color: hsl(var(--dark-bg-h) var(--dark-bg-s) calc(var(--dark-bg-l) + 3.5%));
+  box-shadow: var(--box-shadow);
+}
+
+.wrapper_ba23fe {
+  border-radius: 0 0 0 0px
+}
+
+.emojiPicker_c6ee36 {
+  box-shadow: unset !important;
+}
+
+/* [Fixes] the Emoji Section Colour (all changes above are apart of it) who ever did the emojipicker has 2 sep classes genius i say*/
