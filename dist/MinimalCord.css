@@ -1785,5 +1785,6 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 /* [Fixes] the Emoji Section Colour (all changes above are apart of it) who ever did the emojipicker has 2 sep classes genius i say*/
 
 .spoilerContent_aa9639.hidden_aa9639 {
-  --__current--spoiler-background-color: unset !important;
+  /* --__current--spoiler-background-color: unset !important; */
+  --__current--spoiler-background-color: var(--background-alt);;
 }
