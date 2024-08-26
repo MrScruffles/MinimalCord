@@ -1788,3 +1788,22 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   /* --__current--spoiler-background-color: unset !important; */
   --__current--spoiler-background-color: var(--background-modifier-active);
 }
+
+/* [Fixes] the Family Ceter Section Colour v */
+@media (min-width: 900px) {
+  .container_a2e886 {
+    background: var(--background-alt);
+  }
+}
+
+.container_d7c696 {
+  background: var(--background-alt);
+}
+
+@media (min-width: 485px) {
+  .container_b01337 {
+    background: var(--background-alt);
+  }
+}
+
+/* [Fixes] the Family Ceter Section Colour ^ */
