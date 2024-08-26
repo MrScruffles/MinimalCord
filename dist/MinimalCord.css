@@ -21,7 +21,7 @@
   --text-link: rgb(var(--accent));
 
   /* [Fixes] Decoration Fix */
-  --custom-message-margin-horizontal: 8.5px;
+  --custom-message-margin-horizontal: 10px;
 }
 
 .theme-light,
@@ -1684,7 +1684,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 
 /* [Fixes] Another fix to Decoration Placement */
 .avatar_f9f2ca {
-  margin-top: 1.5px !important;
+  transform: translateY(1.2px);
 }
 
 /* [Fixes] Opening Image not transparent */
