@@ -1807,3 +1807,8 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 }
 
 /* [Fixes] the Family Ceter Section Colour ^ */
+
+/* [Fixes] Role Icons Not appearing */
+.roleIcon_afae9f {
+  z-index: 20;
+}
