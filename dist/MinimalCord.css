@@ -1812,3 +1812,11 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
 .roleIcon_afae9f {
   z-index: 20;
 }
+
+/* [Fixes] Pending Friend Req Tab */
+.peopleList_e0840f {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 0;
+  flex: 1 1 auto;
+}
