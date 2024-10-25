@@ -1820,3 +1820,7 @@ html, span:not([class*=spinner_]):not([class*=spinnerItem]) {
   min-height: 0;
   flex: 1 1 auto;
 }
+
+.themedBackground_bdf0de {
+    background: unset;
+}
